@@ -53,3 +53,12 @@ For every material AI-assisted change, append the date, tool/model, task or prom
 - GitHub Actions: Gate G1 Validation completed successfully.
 - Verification: Public visibility, pushed commit history, workflow result, final checklist rendering, and local validator all passed.
 - Decision: Gate G1 package status changed from conditional ready to ready.
+
+## Entry 006 - Wireframe and UI Flow redesign
+
+- Date: 2026-09-20
+- Tool: OpenAI Codex
+- Task: Redesign `03_CabinSentinel_Wireframe_UI_Flow.pdf` with greater visual fidelity, clearer safety interactions, and developer-ready detail.
+- Output: Expanded the artifact from 7 to 11 pages with experience principles, design tokens, SAFE/WARNING/CRITICAL screens, tool progress, event audit, device health, end-to-end flow, mobile behavior, accessibility, and developer handoff.
+- Verification: Rendered and visually inspected all 11 pages; checked text extraction, page count, clipping, spacing, and local Gate G1 validation.
+- Decision: Preserve the same filename and repository/Drive links so the submission references remain stable.
