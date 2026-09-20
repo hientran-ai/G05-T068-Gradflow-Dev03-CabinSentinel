@@ -16,15 +16,8 @@ README_Submission.txt
 
 GITHUB REPOSITORY
 -----------------
-Public repositories were checked for GitHub user hientran-ai on 2026-09-20.
-No CabinSentinel repository was visible. The following candidate URLs did not exist:
-- https://github.com/hientran-ai/CabinSentinel
-- https://github.com/hientran-ai/DEV03_CabinSentinel_GateG1
-
-Intended repository URL after creation/push:
-https://github.com/hientran-ai/DEV03_CabinSentinel_GateG1
-
-IMPORTANT: Replace this section with the confirmed live URL before submitting to the lecturer.
+Confirmed public repository:
+https://github.com/hientran-ai/G05-T068-Gradflow-Dev03-CabinSentinel
 
 REPOSITORY AI LOG SETUP
 -----------------------
@@ -37,10 +30,9 @@ LOCAL VALIDATION
 ----------------
 Run: python scripts/validate_submission.py
 
-PUBLISH STEPS
--------------
-1. Create/accept repository DEV03_CabinSentinel_GateG1 on GitHub.
-2. git remote add origin https://github.com/hientran-ai/DEV03_CabinSentinel_GateG1.git
-3. git push -u origin main
-4. Confirm GitHub Actions > Gate G1 Validation is green.
-5. Confirm lecturer access, then paste the live repository URL into the LMS.
+PUBLISH STATUS
+--------------
+Repository name: G05-T068-Gradflow-Dev03-CabinSentinel
+Visibility: Public
+Branch: main
+Validation workflow: Gate G1 Validation

@@ -31,7 +31,7 @@ if brief.is_file():
         errors.append(f"brief must be exactly 1 page; detected {page_count}")
 
 readme = ROOT / "README_Submission.txt"
-if readme.is_file() and "Intended repository URL" not in readme.read_text(encoding="utf-8"):
+if readme.is_file() and "Confirmed public repository" not in readme.read_text(encoding="utf-8"):
     errors.append("README repository section missing")
 
 if errors:

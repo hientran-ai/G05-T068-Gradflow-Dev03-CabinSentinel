@@ -35,3 +35,12 @@ Purpose: Maintain an auditable record of AI-assisted work and human review.
 ## Logging rule
 
 For every material AI-assisted change, append the date, tool/model, task or prompt summary, files changed, verification performed, human reviewer, and final decision. Never record secrets, tokens, private images, or personal data not needed for the submission.
+
+## Entry 004 - GitHub repository publication
+
+- Date: 2026-09-20
+- Tool: OpenAI Codex
+- Task: Create the final public repository using the user-selected submission name.
+- Repository: https://github.com/hientran-ai/G05-T068-Gradflow-Dev03-CabinSentinel
+- Verification: Confirm repository visibility, push the main branch, and inspect the Gate G1 Validation workflow.
+- Decision: Use a public repository so the lecturer can inspect files, commit history, AI Log, hook, and GitHub Actions without a separate invitation.
