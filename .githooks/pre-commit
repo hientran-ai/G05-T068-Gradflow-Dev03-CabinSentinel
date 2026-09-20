@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+set -eu
+python scripts/validate_submission.py
+if ! git diff --cached --quiet -- AI_LOG.md; then
+  echo "AI_LOG.md included in this commit."
+else
+  echo "Reminder: update AI_LOG.md for material AI-assisted changes."
+fi
